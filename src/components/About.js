@@ -19,27 +19,33 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently a <b>Software Development Engineer</b> at
-        <a href="https://www.aboutamazon.com/"> Amazon</a>, working in the AWS
-        sector under team Route 53. At the same time, I am undertaking a
-        part-time <b> Master's of Science</b> in <b>Software Engineering </b>at{" "}
-        <a href="https://www.ox.ac.uk/about">University of Oxford</a>.
+        I am currently a <b>Machine Learning Development Engineer</b> at{" "}
+        <a href="https://www.sickkidsfoundation.com/">SickKids</a>, working in the Research
+        and Development team. I recently graduated with a <b>Master of Applied Science</b> in{" "}
+        <b>Computer Engineering</b> at <b>York University</b>.
       </p>
     );
     const two = (
       <p>
-        Outside of work, I'm interested in following the developments of
-        science. I also play a lot of video games. And make TikToks.
+        Outside of work, I'm passionate about rock climbing (most common thing among programmers :D), 
+        where I find both physical challenge and mental focus. I also express my creativity through painting and drawing, 
+        exploring different techniques and styles. 
       </p>
     );
 
     const tech_stack = [
-      "Typescript",
       "Python",
-      "React.js",
-      "Java",
-      "Javascript ES6+",
-      "C#"
+      "PyTorch",
+      "Lightning",
+      "TensorFlow",
+      "C++",
+      "Azure",
+      "Docker",
+      "Scikit-learn",
+      "OpenCV",
+      "Three.js",
+      "Git",
+      "HPC Clusters",
     ];
 
     return (
@@ -64,7 +70,7 @@ class About extends React.Component {
               {[two]}
             </div>
             <div className="about-image">
-              <img alt="Gazi Jarin" src={"/assets/me2.jpg"} />
+              <img alt="Zari H." src={"/assets/zari_prof.jpeg"} />
             </div>
           </div>
         </FadeInSection>

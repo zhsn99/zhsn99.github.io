@@ -5,6 +5,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Credits from "./components/Credits";
 import NavBar from "./components/NavBar";
+import Education from "./components/Education";
 import "./App.css";
 import "./styles/Global.css";
 import "rsuite/dist/styles/rsuite-default.css";
@@ -16,6 +17,7 @@ function App() {
       <div id="content">
         <Intro></Intro>
         <About></About>
+        <Education></Education>
         <Experience></Experience>
         <Projects></Projects>
         <Credits></Credits>

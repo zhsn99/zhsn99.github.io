@@ -82,7 +82,7 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
-    Amazon: {
+    SickKids: {
       jobTitle: "Software Development Engineer @",
       duration: "JUL 2022 - PRESENT",
       desc: [
@@ -90,7 +90,7 @@ const JobList = () => {
         "Re-built Route 53's core domain management and DNS systems to provide a better user experience to millions of customers."
       ]
     },
-    Wattpad: {
+    IPM: {
       jobTitle: "Associate Engineer @",
       duration: "MAY 2020 - APR 2021",
       desc: [
@@ -107,7 +107,7 @@ const JobList = () => {
         " Application selected for DCS Research Award ($4,000) as part of the ”Visualizing Privacy Analysis Results” project led by Professor Marsha Chechik."
       ]
     },
-    Centivizer: {
+    AGP: {
       jobTitle: "Software Developer @",
       duration: "SEPT 2019 - APR 2020",
       desc: [
