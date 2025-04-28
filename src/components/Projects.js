@@ -22,14 +22,14 @@ class Projects extends React.Component {
   }
   render() {
     const spotlightProjects = {
-      "No Man's Land": {
-        title: "no man's land",
+      "Modeling of the Eye contact": {
+        title: "Eye contact Modeling with diffusion models",
         desc:
-          "A third-person survival-mode game where you battle against time and space to return to Earth.",
-        techStack: "C# (UNITY)",
-        link: "https://github.com/slakh96/no-mans-land",
-        open: "https://gazijarin.itch.io/no-mans-land",
-        image: "/assets/nomansland.png"
+          "My master thesis project, which resulted in few sub projects",
+        techStack: "Python, PyTorch, Diffusion Models",
+        // link: "https://github.com/slakh96/no-mans-land",
+        open: "https://hdl.handle.net/10315/42858",
+        image: "/assets/setup_mahsa_majid.png"
       },
       Truth: {
         title: "truth",

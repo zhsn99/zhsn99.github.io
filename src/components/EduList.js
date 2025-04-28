@@ -83,7 +83,7 @@ const EduList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
-    YORK: {
+    "York University": {
       jobTitle: "Master of Applied Science Computer Engineering @",
       duration: "Sep 2022 - Dec 2024",
       desc: [
