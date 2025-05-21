@@ -27,10 +27,19 @@ class Projects extends React.Component {
         desc:
           "My master thesis project, which resulted in few sub projects",
         techStack: "Python, PyTorch, Diffusion Models",
-        // link: "https://github.com/slakh96/no-mans-land",
+        link: "https://github.com/slakh96/no-mans-land",
         open: "https://hdl.handle.net/10315/42858",
         image: "/assets/setup_mahsa_majid.png"
       },
+      // eeeeee: {
+      //   title: "ssssss",
+      //   desc:
+      //     "A three.js simulation of the planet system revolving around a monolith.",
+      //   techStack: "JAVASCRIPT (THREE.JS)",
+      //   link: "https://github.com/gazijarin/truth",
+      //   open: "https://gazijarin.github.io/Truth/",
+      //   image: "/assets/setup_mahsa_majid_2.png"
+      // },
       Truth: {
         title: "truth",
         desc:

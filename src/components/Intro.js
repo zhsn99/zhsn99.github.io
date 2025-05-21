@@ -34,7 +34,7 @@ class Intro extends React.Component {
           </span>
         </Typist>
         <FadeInSection>
-          <div className="intro-subtitle">Engineer by day, Artits by night</div>
+          <div className="intro-subtitle">Engineer by day, Artist by night</div>
           <div className="intro-desc">
             I'm a ML engineer from Toronto, Canada. I'm fascinated by
             large-scale, high-impact products and contributed to major feature launches in

@@ -15,6 +15,7 @@ min-height: 50vh;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
 }
+/* not relative position */
 
 .projects-card {
   position: relative;
@@ -95,9 +96,11 @@ min-height: 50vh;
 }
 
 .carousel img {
-  object-fit: contain;
-  height: 100%;
-  opacity: 0.5;
+  max-height: 500px;
+  width: auto;
+  margin: auto;
+  display: block;
+  object-fit: cover;
 }
 
 .carousel-caption {
@@ -106,12 +109,16 @@ min-height: 50vh;
   right: unset !important;
   left: 25% !important;
   user-select: none;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .carousel-caption h3 {
   font-size: 38px;
   font-weight: bold;
   color: var(--lightest-slate);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .carousel-caption p {
@@ -119,6 +126,7 @@ min-height: 50vh;
   font-weight: bold;
   font-size: 18px;
   color: var(--lightest-slate);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .carousel-caption p.techStack {
@@ -130,13 +138,6 @@ min-height: 50vh;
 
 .carousel-indicators .active {
   background-color: var(--green-bright);
-}
-
-.carousel-item img {
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
-  border-radius: 16px;
 }
 
 @media only screen and (max-width: 600px) {
