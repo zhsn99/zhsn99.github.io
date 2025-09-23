@@ -30,80 +30,73 @@ class Projects extends React.Component {
         // link: "https://github.com/slakh96/no-mans-land",
         open: "https://hdl.handle.net/10315/42858",
         image: "/assets/setup_mahsa_majid.png"
-      },
-      Truth: {
-        title: "truth",
-        desc:
-          "A three.js simulation of the planet system revolving around a monolith.",
-        techStack: "JAVASCRIPT (THREE.JS)",
-        link: "https://github.com/gazijarin/truth",
-        open: "https://gazijarin.github.io/Truth/",
-        image: "/assets/truth.png"
-      },
-      "Tall Tales": {
-        title: "tall tales",
-        desc:
-          "A multi-player story-telling web game for 3-5 players. Its usage of sockets to allow for concurrent gameplay, connecting friends across the internet.",
-        techStack: "NODE.JS (SOCKET.IO), REACT.JS, MONGODB",
-        link: "https://github.com/gazijarin/TallTales",
-        open: "https://talltales.herokuapp.com/",
-        image: "/assets/talltales.png"
-      },
-      Portfolio: {
-        title: "portfolio.js",
-        desc:
-          "A small JS library that helps with clear and succinct data presentation.",
-        techStack: "NODE.JS (EXPRESS.JS)",
-        link: "https://github.com/gazijarin/Portfolio.js",
-        open: "https://afternoon-ocean-92382.herokuapp.com/",
-        image: "/assets/portfolio.png"
       }
+      // Truth: {
+      //   title: "truth",
+      //   desc:
+      //     "A three.js simulation of the planet system revolving around a monolith.",
+      //   techStack: "JAVASCRIPT (THREE.JS)",
+      //   link: "https://github.com/gazijarin/truth",
+      //   open: "https://gazijarin.github.io/Truth/",
+      //   image: "/assets/truth.png"
+      // },
+      // "Tall Tales": {
+      //   title: "tall tales",
+      //   desc:
+      //     "A multi-player story-telling web game for 3-5 players. Its usage of sockets to allow for concurrent gameplay, connecting friends across the internet.",
+      //   techStack: "NODE.JS (SOCKET.IO), REACT.JS, MONGODB",
+      //   link: "https://github.com/gazijarin/TallTales",
+      //   open: "https://talltales.herokuapp.com/",
+      //   image: "/assets/talltales.png"
+      // },
+      // Portfolio: {
+      //   title: "portfolio.js",
+      //   desc:
+      //     "A small JS library that helps with clear and succinct data presentation.",
+      //   techStack: "NODE.JS (EXPRESS.JS)",
+      //   link: "https://github.com/gazijarin/Portfolio.js",
+      //   open: "https://afternoon-ocean-92382.herokuapp.com/",
+      //   image: "/assets/portfolio.png"
+      // }
     };
     const projects = {
-      "TDSB Homework Management Interface": {
+      "Unity-Based Eye Contact Visualizer": {
         desc:
-          "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
-        techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
-        link: "https://github.com/gazijarin/TDSBHomeworkManagement",
-        open: "https://tdsb-app.herokuapp.com/"
+          "Developed a Unity application to animate generated gaze and head movements on Ready Player Me avatars. Integrated motion capture and eye-tracking outputs into the game engine, enabling realistic simulations of saccades, fixations, and coordinated head turns in conversational settings.",
+        techStack: "Unity, Ready Player Me, C#, three.js, PyTorch-Lightning",
+        link: "https://drive.google.com/drive/folders/13JNNtsH6KZLCUk6d4eE-RHAlMRJBHlLV?usp=share_link&pli=1",
+        open: null
       },
-      "Adam A.I.": {
+      "Lookalike Modeling for Fashion Personalization": {
         desc:
-          "A self-learning A.I. that learns to traverse through a complex maze using the genetic algorithm.",
-        techStack: "Javascript, HTML / CSS",
-        link: "https://github.com/gazijarin/adamai",
-        open: "https://gazijarin.github.io/AdamAI/"
+          "Built a retrieval system using the MMFashion dataset, modeling user preferences using outfit features. Trained a contrastive encoder to align user preference vectors with clothing image features; used FAISS for scalable nearest-neighbor search to identify visually and semantically similar user profiles.",
+        techStack: "Python, PyTorch",
+        link: "https://github.com/open-mmlab/mmfashion",
+        open: null
       },
-      "Distributed Logging and Monitoring System": {
+      "LLM-Powered Analysis of Corporate Diversity Disclosures": {
         desc:
-          "A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
-        techStack: "Node.js (Express.js), React.js, PostgreSQL",
-        link:
-          "https://github.com/gazijarin/Distributed-Logging-and-Monitoring-System"
+          "Developed an LLM pipeline for legal and compliance document processing to extract insights from diversity disclosures. Implemented RAG to automate extraction from long documents, reducing expert review time by over 50%. Engineered prompt chains with custom memory for variable structures and applied document chunking and embedding-based retrieval for scalable processing of 100+ page PDFs.",
+        techStack: "Python, LangChain, OpenAI, RAG",
+        link: null,
+        open: null
       },
-      "Odin Bot": {
+      "Backend Web Development Projects - Swan": {
         desc:
-          "A Telegram bot that helps you excel on your daily tasks through Node NLP.",
-        techStack: "Javascript, Node.js, Natural NLP, Telegram API",
-        link: "https://github.com/gazijarin/OdinBot",
-        open: ""
+          "Developed a backend integrating social media APIs and MTA servers for automated campaigns.",
+        techStack: "Python, Django, REST",
+        link: "https://github.com/Anatidaephobia-SE",
+        open: null
       },
-      "Game Centre": {
+      "Backend Web Development Projects - GoardBame": {
         desc:
-          "An Android app consisting of three board games, including multiplayer, autosave, user authentication, etc.",
-        techStack: "Java, Android Studio",
-        link: "https://github.com/gazijarin/gamecentre",
-        open: ""
-      },
-      "Minimax Stonehenge": {
-        desc:
-          "Two-player, zero-sum game with a strategic Minimax artificial intelligence.",
-        techStack: "Python",
-        link: "https://github.com/gazijarin/stonehenge",
-        open: ""
+          "Built a backend platform to list board games and cafés, enabling gamers and cafés to connect.",
+        techStack: "Python, Django, REST",
+        link: "https://github.com/zhsn99/BoardGame-Backend",
+        open: null
       }
     };
-
+    
     return (
       <div id="projects">
         <div className="section-header ">
